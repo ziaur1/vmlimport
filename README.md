@@ -16,7 +16,7 @@
         - composer config minimum-stability dev
         - composer config prefer-stable true
       - For the installation of the module, please run
-        - composer require ziaur1/import (It will install the module under directory magento_solution_director/vendor)
+        - composer require ziaur1/vmlimport (It will install the module under directory magento_solution_director/vendor)
       - Once installed, please run
         - php bin/magento setup:di:compile && php bin/magento setup:uphgrade && php bin/magento module:enable Vml_Import
       - Flush the cache by running following command
