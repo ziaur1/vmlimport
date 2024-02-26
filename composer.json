@@ -1,0 +1,35 @@
+{
+    "name": "ziaur1/import",
+    "description": "Customer Data Import Via Csv and Json Using command line ",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ziaur",
+            "email": "rahaman.ziaur@gmail.com"
+        }
+    ],
+
+	"repositories": {
+        "ziaur1/Vml_import": {
+            "type": "git",
+            "url": "https://github.com/ziaur1/Vml_import"
+        }
+    },
+
+    "require": {
+        "php": "~7.3.33|~7.4.0",
+		 "magento/framework": ">=102.0.0"
+    },
+	"autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vml\\Import\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version": "2.1.1"
+}
